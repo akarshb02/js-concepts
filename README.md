@@ -34,6 +34,21 @@
 # Geolocation API?
 - To get the geographical position of a user(longitude,latitude)
 
+#How web page is loaded?
+##DNS(Domain Name System) is a database that maintains the name of the website (URL) and the particular IP address it links to. Every single URL on the internet has a unique IP address assigned to it
+-when we search something on url
+  -firstly it will search in browser cache.If not found
+  -then it will search in os cache.if fails
+  -seaches in router cache
+  -and also searches in ISP cache
+  
+  -if the data not found
+  
+  -the DNS will initiate DNS query to check in multiple DNS server if ip found the browser initate TCP(transmission control protocal).
+  -to transfer data it should establish a connection using 3way handshaking property
+  
+  -initially the browser loads HTML skeleton then will will check tags and send GET request(js,css etc) once it is fetched the static files are cached by browser so    it's not necessary to load again
+
 
 # CSS
 
