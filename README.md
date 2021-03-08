@@ -50,9 +50,14 @@
 # CSS
 
 ## positioning properties?
+
 - Static : the elements are positioned static by default.
 - Relative : the elements will be positioned relative to its previous element using (top,left,bottom,right) properties
-- Absolute : 
+- Absolute : element will be positioned relative to parent(completely removes from document flow)
+- Fixed    : element will stay on window when the page is scrolled.
+- Sticky   : toggles between relative and fixed positioning depending on scroll position 
+
+# Box-Sizing,Content-Box,and Border-Box
 
 
   
