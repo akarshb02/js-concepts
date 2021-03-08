@@ -90,9 +90,51 @@
 ## const :- 
 - const scope is limited to block and can't update or redeclare
 
-## 
+## what is closure?
+- Accessing a parent variables in child function after parent function returning
 
- 
+## significance of Arrow function ?
+- Arrow function are used to reduce the code and they don't have their own 'this' value (=>)
+
+## what are return types of map,filter,find,foreach,reduce,some and every array
+## map :- creates a new array as result.Original array will not change
+ - returns new array
+## filter :- filters each elements in an array
+- An array containing all the elements of result or empty array
+## find :- returns the first vale of an array that passes
+- if passes returns array element or undefined 
+## forEach :- iterates all the elements in an array and calls a function for each iteration
+- returns undefined 
+## reduce :- reduces the array to single value(accumulator,currentval)
+- returns accumulator result
+## some :- checks ifsingle element in an array is true
+- returns bool
+## every :- checks each element in an array if single elemet is false the result will be false
+- returns bool
+
+## shallow copy and deap copy ?
+
+
+
+## difference betwen function and function expression ?
+
+- functions are hoisted to top of the block so we can call they before declaration.
+- in function expressions only variable will be hoisted to top so we can't call before declaration
+
+## Name some aync calls ?  
+
+- setTimeOut(function(){
+    console.log('timeout)
+  },3000)
+- setInterval(function(){
+    console.log('Interval)
+  },5000)
   
+  //function
+-   async function foo() {
+   await 1
+}
 
+## Higher order function ?
+-  A function which takes another function as input
   
