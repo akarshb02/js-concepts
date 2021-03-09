@@ -1,7 +1,7 @@
 # HTML
 
 ## Types of elements in HTML?
-- The html element are defined by start tag,some contents and end tag
+* The html element are defined by start tag,some contents and end tag
 
 ## block level element
 - A block level elements starts at new line and takes up the full width available.
