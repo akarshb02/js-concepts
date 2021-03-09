@@ -33,19 +33,29 @@
 
 ## How web page is loaded?
 ## DNS(Domain Name System) is a database that maintains the name of the website (URL) and the particular IP address it links to. Every single URL on the internet has a unique IP address assigned to it
--when we search something on url
-  -firstly it will search in browser cache.If not found
-  -then it will search in os cache.if fails
-  -seaches in router cache
-  -and also searches in ISP cache
+- when we search something on url
+  - firstly it will search in browser cache.If not found
+  - then it will search in os cache.if fails
+  - seaches in router cache
+  - and also searches in ISP cache
   
-  -if the data not found
+  - if the data not found
   
-  -the DNS will initiate DNS query to check in multiple DNS server if ip found the browser initate TCP(transmission control protocal).
-  -to transfer data it should establish a connection using 3way handshaking property
+  - the DNS will initiate DNS query to check in multiple DNS server if ip found the browser initate TCP(transmission control protocal).
+  - to transfer data it should establish a connection using 3way handshaking property
   
-  -initially the browser loads HTML skeleton then will will check tags and send GET request(js,css etc) once it is fetched the static files are cached by browser so    it's not necessary to load again
+  - initially the browser loads HTML skeleton then will will check tags and send GET request(js,css etc) once it is fetched the static files are cached by browser   - so it's not necessary to load again
 
+## headers in HTTP request ?
+## General header :- 
+ - it can be used for both request or response but don't apply for content message
+
+## Request header :- 
+  - used in http request but doesn't related to content of msg
+## Response header :- 
+  - used in additional info about response
+## Entity header :- 
+  - the header is used in HTTP req or response to describe content of message 
 
 # CSS
 
@@ -68,17 +78,25 @@
 
 ## Display: inline,block,inline-block
 
--inline : diaplays the element as an inline element like (<span>) within the same line
--block  : displays the element as an block element like (<div>) in new line and takes full width
--inline-block : diaplays the element with minimum width and we can set height and width 
+- inline : diaplays the element as an inline element like (<span>) within the same line
+- block  : displays the element as an block element like (<div>) in new line and takes full width
+- inline-block : diaplays the element with minimum width and we can set height and width 
 
 
+## Box-Sizing:Content-Box,and Border-Box
 
+## Content-Box :-  
+- the content value will include width+(left and right) + height (top and bottom)+border and padding(not includes margin) only for content inside box
 
-# Box-Sizing,Content-Box,and Border-Box
+## Border-Box :- 
+- the content vlaue will include width - (left and right padding,boder)+ heigh - (top and bottom padding) 
 
-
-
+## media queries - standard numbers ?
+- 320px — 480px: Mobile devices
+- 481px — 768px: iPads, Tablets
+- 769px — 1024px: Small screens, laptops
+- 1025px — 1200px: Desktops, large screens
+- 1201px and more —  Extra large screens, TV
 
 # JS
 
@@ -113,6 +131,22 @@
 - returns bool
 
 ## shallow copy and deap copy ?
+## shallow copy :- 
+- changing value of cloned obj will reflect into original as well because both are pointing to same reference obj
+- EX :- let a={id:1,name:'vikas'} //orignal obj
+- let b = a ; //cloned obj
+- b.id=5;
+- c.log(a);           // id=5
+- c.log(b);           // id=5
+
+## deep copy :- 
+- changing the value in cloned obj will not reflect in original obj both point to different reference
+- EX:- let var1 = 5
+- let var2 = var1 ;
+- var2 = 10;
+- c.log(var1);       //5
+- c.log(var2);      //10
+
 
 
 
