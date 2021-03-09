@@ -9,11 +9,12 @@
   
  ## inline element
  - An element doesn't start on new line and takes up necessary width
-   ### Ex: span,a,img,strong,b,li,input etc..
+   ### Ex: 
+   - span,a,img,strong,b,li,input etc..
 
 ## what are simantic elements?
 - A semantic element clearly describes its meaning to both the browser and the developer. 
-### Ex:of 
+### Ex: 
  - non-semantic elements: div and span - Tells nothing about its content. 
 ### Ex: 
   - form , table , and article - Clearly defines its content.
