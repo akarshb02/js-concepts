@@ -4,20 +4,20 @@
 ```
 -> The html element are defined by start tag,some contents and end tag
 
-## block level element
+* block level element
 -> A block level elements starts at new line and takes up the full width available.
    Ex: div,h1-h6,p,form,table etc..
   
--> inline element
+* inline element
 -> An element doesn't start on new line and takes up necessary width
    Ex:- span,a,img,strong,b,li,input etc..
 ```
 ## what are simantic elements?
 ```
 -> A semantic element clearly describes its meaning to both the browser and the developer. 
-### Ex: 
+ Ex: 
  -> non-semantic elements: div and span - Tells nothing about its content. 
-### Ex: 
+ Ex: 
   -> form , table , and article - Clearly defines its content.
 ```
 ## why <!Doctype html>? what happens if you didn't include?
@@ -58,14 +58,14 @@
 ```
 ## headers in HTTP request ?
 ```
-1. General header :- 
+* General header :- 
  -> it can be used for both request or response but don't apply for content message
 
-2. Request header :- 
+* Request header :- 
   -> used in http request but doesn't related to content of msg
-3. Response header :- 
+* Response header :- 
   -> used in additional info about response
-4. Entity header :- 
+* Entity header :- 
   -> the header is used in HTTP req or response to describe content of message 
 ```
                           
