@@ -58,7 +58,7 @@
   - the header is used in HTTP req or response to describe content of message 
 
                           
-                              =========================================================================================
+                                                             ======x======
 
 # CSS
 
@@ -101,8 +101,7 @@
 - 1025px — 1200px: Desktops, large screens
 - 1201px and more —  Extra large screens, TV
 
-                       
-                              =========================================================================================
+                                                                   ======x======
 
 # JS
 
