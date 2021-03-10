@@ -6,19 +6,18 @@
 
 * block level element
 -> A block level elements starts at new line and takes up the full width available.
-   ex:- div,h1-h6,p,form,table etc..
+   ex:- <div>,<h1>-<h6>,<p>,<form>,<table> etc..
   
 * inline element
 -> An element doesn't start on new line and takes up necessary width
-   ex:- span,a,img,strong,b,li,input etc..
+   ex:- <span>,<a>,<img>,<strong>,<b>,<li>,<input> etc..
 ```
 ## what are simantic elements?
 ```
 -> A semantic element clearly describes its meaning to both the browser and the developer. 
- ex: 
+ ex: <form> , <table> , and <article> - Clearly defines its content.
  -> non-semantic elements: div and span - Tells nothing about its content. 
- ex: 
-  -> form , table , and article - Clearly defines its content.
+ ex: <div>,<span>
 ```
 ## why <!Doctype html>? what happens if you didn't include?
 ```
@@ -129,11 +128,15 @@ ___
 -> var   :- var scope is not limited to block & we can redeclare and update 
 -> let   :- let scope is limited to block & we can't redeclare let but we can update it
 -> const :- const scope is limited to block and can't update or redeclare
+   
+   * [program:var_let_const.js]
+
 ```
 ## what is closure?
-
-> - Accessing a parent variables in child function after parent function returning
-
+```
+ -> Accessing a parent variables in child function after parent function returning
+   [program : closure.js]
+```
 ## significance of Arrow function ?
 > - Arrow function are used to reduce the code and they don't have their own 'this' value (=>)
 
@@ -205,5 +208,5 @@ ___
 }
 ```
 ## Higher order function ?
-> -  A function which takes another function as input
+> -  A function which takes another function as input(program : calculate.js)
   
