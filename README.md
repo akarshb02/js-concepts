@@ -16,7 +16,8 @@
 ```
 -> A semantic element clearly describes its meaning to both the browser and the developer. 
  ex: <form> , <table> , and <article> - Clearly defines its content.
- -> non-semantic elements: div and span - Tells nothing about its content. 
+
+-> non-semantic elements: div and span - Tells nothing about its content. 
  ex: <div>,<span>
 ```
 ## why <!Doctype html>? what happens if you didn't include?
@@ -45,6 +46,7 @@
 ```
 -> DNS(Domain Name System) is a database that maintains the name of the website (URL) and the particular 
    IP address it links to. Every single URL on the internet has a unique IP address assigned to it
+
 -> when we search something on url
   -> firstly it will search in browser cache.If not found
   -> then it will search in os cache.if fails
@@ -170,7 +172,8 @@ ___
 ```
 -> shallow copy :- changing value of cloned obj will reflect into original as well
    because both are pointing to same reference obj
-   EX :- let a={id:1,name:'vikas'} //orignal obj
+  
+EX:-let a={id:1,name:'vikas'} //orignal obj
    let b = a ; //cloned obj
    b.id=5;
    c.log(a);           // id=5
@@ -178,7 +181,8 @@ ___
 
 -> deep copy :-  changing the value in cloned obj will not reflect in original obj both point 
    to different reference
-   EX:- let var1 = 5
+ 
+EX:-let var1 = 5
    let var2 = var1 ;
    var2 = 10;
    c.log(var1);       //5
@@ -191,6 +195,7 @@ ___
 ```
 
 -> functions are hoisted to top of the block so we can call they before declaration.
+
 -> in function expressions only variable will be hoisted to top so we can't call 
    before declaration
 ```
