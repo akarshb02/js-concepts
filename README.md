@@ -52,10 +52,12 @@
   -> and also searches in ISP cache
   
   -> if the data not found
-  -> the DNS will initiate DNS query to check in multiple DNS server if ip found the browser initate TCP(transmission control protocal).
+  -> the DNS will initiate DNS query to check in multiple DNS server if ip found the browser initate TCP
+     (transmission control protocal).
   -> to transfer data it should establish a connection using 3way handshaking property
   
-  -> initially the browser loads HTML skeleton then will will check tags and send GET request(js,css etc) once it is fetched the static files are cached by browser   -> so it's not necessary to load again
+  -> initially the browser loads HTML skeleton then will will check tags and send GET request(js,css etc) 
+      once it is fetched the static files are cached by browser   -> so it's not necessary to load again
 ```
 ## headers in HTTP request ?
 ```
