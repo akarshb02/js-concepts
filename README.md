@@ -63,7 +63,7 @@
 ```
 * General header :- 
  -> it can be used for both request or response but don't apply for
-    content message
+    content message (cache control)
 * Request header :- 
   -> used in http request but doesn't related to content of msg
 * Response header :- 
