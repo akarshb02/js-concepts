@@ -81,7 +81,7 @@ ___
 ```
 -> Static   : the elements are positioned static by default.
 -> Relative : the elements will be positioned relative to its previous element using 
-   (top,left,bottom,right) properties
+              (top,left,bottom,right) properties
 -> Absolute : element will be positioned relative to parent(completely removes from document flow)
 -> Fixed    : element will stay on window when the page is scrolled.
 -> Sticky   : toggles between relative and fixed positioning depending on scroll position 
@@ -93,7 +93,7 @@ ___
   
 -> Display :- specifies the display behavior of an element.
    ex : display: none; turns off the display and removes the element completely from the document.
-   It does not take up any space
+        It does not take up any space
 
 ```
 ## Display: inline,block,inline-block
@@ -106,10 +106,10 @@ ___
 ## Box-Sizing:Content-Box,and Border-Box
 ```
 -> Content-Box :- the content value will include width+(left and right) + height (top and bottom)+
-   border and padding(not includes margin) only for content inside box
+                  border and padding(not includes margin) only for content inside box
 
 -> Border-Box :- the content vlaue will include width - (left and right padding,boder)+ heigh - 
-   (top and bottom padding) 
+                  (top and bottom padding) 
 ```
 ## media queries - standard numbers ?
 ```
@@ -145,36 +145,36 @@ ___
 ## what are return types of map,filter,find,foreach,reduce,some and every array
 ```
 -> map :- creates a new array as result.Original array will not change
-    returns new array
+          returns new array
     
 -> filter :- filters each elements in an array
-   An array containing all the elements of result or empty array
+              returns array or empty array
    
 -> find :- returns the first vale of an array that passes
-   if passes returns array element or undefined 
+            if passes returns array element or undefined 
    
 -> forEach :- iterates all the elements in an array and calls a function 
-   for each iteration
-   returns undefined 
+              for each iteration
+              returns undefined 
    
 -> reduce :- reduces the array to single value(accumulator,currentval)
-   returns accumulator result
+             returns accumulator result
    
 -> some :- checks ifsingle element in an array is true
-   returns bool
+           returns bool
    
 -> every :- checks each element in an array if single elemet is false the result will be false
-   returns bool
+            returns bool
 ```
 ## shallow copy and deap copy ?
 ```
 -> shallow copy :- changing value of cloned obj will reflect into original as well
    because both are pointing to same reference obj
-  EX :- let a={id:1,name:'vikas'} //orignal obj
-  let b = a ; //cloned obj
-  b.id=5;
-  c.log(a);           // id=5
-  c.log(b);           // id=5
+   EX :- let a={id:1,name:'vikas'} //orignal obj
+   let b = a ; //cloned obj
+   b.id=5;
+   c.log(a);           // id=5
+   c.log(b);           // id=5
 
 -> deep copy :-  changing the value in cloned obj will not reflect in original obj both point 
    to different reference
