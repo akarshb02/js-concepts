@@ -69,7 +69,6 @@ class Emp {
     return this.name;
   }
 }
-
 let emp = new Emp();
 
 console.log(emp.setEmpDetails('akarsh'))
